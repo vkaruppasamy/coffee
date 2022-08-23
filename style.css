@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/1320596.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+.to{
+    font-size:80px ;
+    color: whitesmoke;
+    margin-left: 150px;
+    margin-top: 100px;
+    opacity: 0.2;
+}
+.login{
+ margin: auto;
+ margin-top:30px;
+    background:midnightblue;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.login h1{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid silver;
+}
+.user{
+    padding-top: 10px;
+    color:white;
+    text-align:center;
+    font-size: 25px;
+    
+}
+.hr{
+    border: 1px solid white;
+    background:transparent;
+    border-radius: 45px;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.hr:hover{
+    border: 2px solid blue;
+}
+.logo{
+    margin: 20px 150px 10px 100px;
+    padding: 7px 70px;
+    background-color:rgb(205, 22, 202);
+    border: transparent;
+    border-radius: 45px;
+    color: white;
+}
+.logo:hover{
+    background-color:blue;
+    cursor: pointer;
+}
+.pass{
+    margin:0px 0px 8px 8px
+}
+.pass a{
+    color: rgb(24, 139, 197) ;
+}.pass a:hover{
+    color: rgb(15, 238, 193);
+}
+.sign{ 
+    float:right;
+    margin: 0px 5px 8px 0px;
+
+}
+.sign a
+{
+    color: rgb(24, 139, 197);
+}
+.sign a:hover{
+    color: red;
+}
+.footer{
+    font-size: 100px;
+    color:whitesmoke;
+    margin-left: 800px;
+    opacity: 0.2;
+    font-style: italic;
+    margin-top: 50px;
+}
+.quo{
+    font-size:30px ;
+    margin-left: 800px;
+    color: whitesmoke;
+    font-style: italic;
+    margin-top: 40px;
+    font-family: 'Dancing Script',cursive;
+
+
+}
+.cart{
+    margin-top: 80px;
+    margin-left: 50px;
+    color: blue;
+border: 3px solid rgb(180, 115, 115);
+width: fit-content;
+border-radius: 7px;
+}
+.cart:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+.cart{
+    position: relative;
+}
+.cart1
+{
+    position: absolute;
+    top: 0;
+    left: 350px;
+    border: 3px solid rgb(180, 115, 115) ;
+    border-radius: 7px;
+}
+.cart3{
+    position: absolute;
+    top: 0;
+    left: 700px;
+    border: 3px solid rgb(180, 115, 115) ;
+    border-radius: 7px;
+
+}
+.cart4{
+    position: absolute;
+    top: 0;
+    left: 1050px;
+    border: 3px solid rgb(180, 115, 115) ;
+    border-radius: 7px;
+
+}
+.cart01{
+    margin-top: 30px;
+    margin-left: 230px;
+    color: blue;
+border: 3px solid rgb(180, 115, 115);
+width: fit-content;
+border-radius: 7px;
+position: relative;
+}
+.cart02{
+    position: absolute;
+    top: 0;
+    left: 350px;
+    border: 3px solid rgb(180, 115, 115) ;
+    border-radius: 7px;
+
+}
+.cart03{
+    position: absolute;
+    top: 0;
+    left: 350px;
+    border: 3px solid rgb(180, 115, 115) ;
+    border-radius: 7px;
+
+}
+.cart01:hover{
+    cursor: pointer;
+    border: 30x solid blue;
+}
+.product{
+    margin-top: 200px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0;
+    color: rgb(227, 137, 137);
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+.end{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    opacity: 0.4;
+}
+.end1{
+    
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.4;
+}
